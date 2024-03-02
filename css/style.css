@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.homepage {
+    background-color: #f9c2e0; /* 浅粉色背景，根据预览图调整 */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; /* 白色文字，根据需要调整 */
+}
+
+h1 {
+    font-size: 2em; /* 根据预览图调整标题大小 */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em; /* 根据预览图调整副标题大小 */
+    margin-bottom: 30px;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #ff99cc; /* 按钮的粉色调，根据预览图调整 */
+    color: #fff; /* 按钮文字颜色 */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff77a9; /* 鼠标悬停时的按钮颜色变深 */
+}
